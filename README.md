@@ -2,16 +2,19 @@
 Reading and writing configuration for Java application using Properties class
 
 ## 1. Creating a Properties object
+- Create a Propertiesobject by using empty constructor:
 ```
 Properties props = new Properties(); 
+```
 
+- Create a Properties object by supplying a default properties list:
+```
 Properties defaultProps = new Properties(); // set default properties
- 
 Properties props = new Properties(defaultProps); / create main Properties object
 ```
 
 ## 2. Loading properties file
-> Load properties from a .properties file using a FileReader object
+- Load properties from a .properties file using a FileReader object
 ```
 File configFile = new File("config.properties");
  
@@ -21,7 +24,7 @@ Properties props = new Properties();
  
 props.load(reader); // load the properties file:
 ```
->Load properties from a plain text file using an InputStream object:
+- Load properties from a plain text file using an InputStream object:
 ```
 File configFile = new File("config.properties");
 
