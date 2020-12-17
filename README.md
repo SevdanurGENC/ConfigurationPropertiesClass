@@ -1,6 +1,13 @@
 # ConfigurationPropertiesClass
 Reading and writing configuration for Java application using Properties class
 
+
+![image](https://user-images.githubusercontent.com/5441882/102424211-bcc12000-401b-11eb-9401-b2aabfcfa8c7.png)
+
+
+![image](https://user-images.githubusercontent.com/5441882/102424258-d2364a00-401b-11eb-88d1-cb66def3bee6.png) 
+
+
 ## 1. Creating a Properties object
 - Create a Propertiesobject by using empty constructor:
 ```
