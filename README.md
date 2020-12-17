@@ -60,13 +60,4 @@ props.setProperty("host", "www.sevdanurgenc.com");
 File configFile = new File("config.properties");
 FileWriter writer = new FileWriter(configFile);
 props.store(writer, "host settings");
-``` 
-
-> Save to XML file using an OutputStream object: 
-``` 
-File configFile = new File("config.xml");
-OutputStream outputStream = new FileOutputStream(configFile);
-props.storeToXML(outputStream, "host settings");
-```
-
-
+```  
